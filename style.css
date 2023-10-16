@@ -163,10 +163,17 @@ nav ul li a:hover::after{
 
 }
 
+.abcd {
+    border-left: 3px solid red;
+    background-color: #030303;
+    list-style-type: none;
+    padding: 2px 5px;
+    height: 12%;
+  }
 /* ---------------------------services-------------------------- */
 
 #services{
-    padding: 30px 0;
+    padding: 0 0;
 }
 
 .services-list{
