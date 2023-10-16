@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleMedia.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg" />
+    <script
+      src="https://kit.fontawesome.com/f3d1174cb6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Utkarsh Kumar Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="Images/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/drive/folders/1YpPacb1w8k3A0tcJyKvBKoEyqE7KIDr9?usp=sharing"
+                >Resources</a
+              >
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>
+            <span
+              style="
+                font-family: 'Times New Roman', Times, serif;
+                text-decoration: dotted blue underline;
+              "
+              >Software Developer</span
+            >
+            ||
+            <span
+              style="
+                font-family: 'Times New Roman', Times, serif;
+                text-decoration: dotted blue underline;
+              "
+              >Frontend Developer</span
+            >
+          </p>
+          <h1
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Hi, I'm
+            <span
+              >Utkarsh Kumar</span
+            ><br />Azamgarh(U.P.)
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------about-------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images\Photo-1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="scrollB">
+              🚀Final year Computer Science Engineering student at VIT Bhopal
+              University with a stellar CGPA of 8.59. Hailing from Azamgarh,
+              Uttar Pradesh, I completed my Intermediate from Delhi Public
+              School, Dehradun (83.6%) and high school from Children College
+              Azamgarh (75%). 🚀Proficient in Java, JavaScript, and SQL, I
+              specialize in web development, focusing on the frontend using
+              React-JS and leveraging relational databases like SQL. Noteworthy
+              among my projects is PET-A-CURE, a MERN stack endeavor aimed at
+              addressing critical animal welfare issues. 🚀An AWS Cloud
+              Practitioner certified by Amazon Web Services, I'm equipped to
+              implement cloud solutions for optimal scalability and efficiency.
+              🚀My short-term ambition is to secure a position in a
+              distinguished company, while my long-term vision involves honing
+              leadership skills, achieving specialization, and embracing
+              perpetual personal and professional growth. 🚀Beyond the code, I'm
+              an avid learner, music enthusiast, and passionate traveler. I
+              approach challenges as opportunities, embodying a positive mindset
+              and confident decision-making prowess.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Certifications
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Java</span><br /></li>
+                <li>
+                  <span
+                    >HTML | CSS | JavaScript | Bootstrap | Tailwind | React-Js |
+                    Node-Js | Express-Js | MongoDB</span
+                  ><br />
+                </li>
+                <li><span>AWS Cloud Services</span><br /></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <div style="overflow: hidden scroll; height: 100px">
+                  <li>
+                    <span>May 2023</span><br />
+                    AWS Certified Cloud Practitioner by AWS
+                    <a
+                      href="https://drive.google.com/file/d/1_3LINmIQbceOlbL9miNkJd3RI4NWjNZ2/view?usp=sharing"
+                      target="_blank"
+                      ><i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        style="color: #16d48b"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <span>May 2023</span><br />
+                    Ultimate AWS Certified Cloud Practitioner
+                    <a
+                      href="https://drive.google.com/file/d/1aBdBOg43HJatFLGX7VyuEGjfrgGS0Nho/view?usp=sharing"
+                      target="_blank"
+                      ><i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        style="color: #16d48b"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <span>January 2023</span><br />
+                    The Complete 2023 Web Development Bootcamp Certification
+                    <a
+                      href="https://drive.google.com/file/d/1OuONQZlQVdv-TKOKErtC2F8UimQOg2Gm/view?usp=sharing"
+                      target="_blank"
+                      ><i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        style="color: #16d48b"
+                      ></i
+                    ></a>
+                  </li>
+                  <li>
+                    <span>October 2021</span><br />
+                    The Bits and Bytes of Computer Networking
+                    <a
+                      href="https://drive.google.com/file/d/1xqQLxcyUs_lduiO_dDkxYORE88goUp9f/view?usp=sharing"
+                      target="_blank"
+                      ><i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                        style="color: #16d48b"
+                      ></i
+                    ></a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>June 2020 - Ongoing</span><br />B. Tech from VIT Bhopal
+                  University.
+                </li>
+                <li>
+                  <span>May 2020</span><br />Class XII from Delhi Public School,
+                  Kalagaon, Dehradun.
+                </li>
+                <li>
+                  <span>May 2018</span><br />Class X from Children Colllege
+                  Azamgarh.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------Services-------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I have honed my web development skills and completed numerous
+              impactful projects. These experiences have equipped me with a deep
+              understanding of front-end and back-end technologies, enabling me
+              to create responsive and dynamic web applications. I'm excited to
+              continue contributing to the ever-evolving world of web
+              development.
+            </p>
+            <a href="#" style="color: aquamarine; font-size: 13px"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-terminal"></i>
+            <h2>Data Structures and Algorithms</h2>
+            <p>
+              I have a Intermediate foundation in data structures and
+              algorithms, with experience solving challenging problems on
+              various coding platforms. My skills are honed through rigorous
+              practice and problem-solving, making me well-prepared to tackle
+              complex technical challenges.
+            </p>
+            <a href="#" style="color: aquamarine; font-size: 13px"
+              >Learn more</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>AWS Cloud Services</h2>
+            <p>
+              I have successfully earned the AWS Certified Cloud Practitioner
+              certificate, gaining expertise in a wide range of AWS cloud
+              services. This certification reflects my comprehensive
+              understanding of AWS, its core services, and cloud computing
+              principles, making me well-equipped for cloud-related endeavors.
+            </p>
+            <a href="#" style="color: aquamarine; font-size: 13px"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------portfolio-------------- -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/work1.png" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                Online Quiz Application
+              </h3>
+              <p>
+                Created an Online Quiz Application where user can access/play
+                all the quiz and can attempt any of the one. There will be
+                limited number of questions and for each correct answer user
+                will get a credit score.
+              </p>
+              <a href="https://quiz-app-mern-one.vercel.app/quiz-app"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work5.png" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                My Portfolio Website
+              </h3>
+              <p>
+                I've designed a personal portfolio website that serves as a
+                comprehensive digital resume. This platform showcases my skills,
+                experiences, and achievements in an engaging manner. It provides
+                visitors with insights into my professional background,
+                projects, and expertise, making it a valuable resource for
+                potential employers and collaborators.
+              </p>
+              <a href="https://utkarsh2603.github.io/Portfolio/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images\TRAVEL_TOURISM_LOGO-02.jpg" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                Incredible India
+              </h3>
+              <p>
+                I've designed a comprehensive tourist website with a powerful
+                backend. Designed and implemented key features, including trip
+                planning tools, cultural insights, attraction information,
+                notices, and an informative 'About Us' section. Streamlined user
+                experiences while ensuring data management efficiency and
+                seamless navigation.
+              </p>
+              <a href="https://utkarsh2603.github.io/Incredible-India/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work2.png" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                MyStereo-A music App
+              </h3>
+              <p>
+                I have developed a music app website, offering an immersive
+                platform for music enthusiasts. This project combines innovative
+                features with user-friendly design, providing a seamless music
+                experience. Users can explore and enjoy their favorite tracks,
+                create playlists, and discover new music, enhancing their
+                overall listening journey.
+              </p>
+              <a href="https://utkarsh2603.github.io/MyStereo/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work3.png" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                Invoice Generator
+              </h3>
+              <p>
+                I've created an invoice generator website using React,
+                streamlining the process of creating professional invoices. This
+                web application offers a user-friendly interface, enabling
+                businesses and freelancers to easily input invoice details,
+                customize templates, and generate polished invoices. It
+                simplifies financial transactions and enhances efficiency.
+              </p>
+              <a href="https://react-invoice-generator.web.app/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/work4.jpg" />
+            <div class="layer">
+              <h3
+                style="
+                  color: rgb(205, 235, 56);
+                  text-decoration: wavy underline rgb(60, 162, 78);
+                  font-weight: 100;
+                "
+              >
+                MyStore.com
+              </h3>
+              <p>
+                I've created a mock online shopping website using HTML, CSS, and
+                JavaScript. This project showcases my web development skills and
+                simulates a user-friendly e-commerce platform. Visitors can
+                browse, select products, and simulate the shopping experience,
+                demonstrating my proficiency in front-end web development.
+              </p>
+              <a href="https://utkarsh2603.github.io/MYSTORE.com/"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://github.com/utkarsh2603" class="btn"
+          >See More on Github</a
+        >
+      </div>
+    </div>
+
+    <!-- ----------------Contact-------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> utkarsh70888@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91-7088-80-0700</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100016158181139"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/utkarsh70888"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/ury_yadav_/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/utkarsh2603/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/utkarsh2603"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a
+              href="https://drive.google.com/file/d/17_Rc22KUFAA-GY07RRq3-l8e4uBYzgZi/view?usp=drive_link"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea name="Message" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy Utkarsh <i class="fa-solid fa-heart"></i>. All rights
+          reserved
+        </p>
+      </div>
+    </div>
+
+    <!-- ----------------Scripts-------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbz2ZnLcB2wu8CgmknekjX36xfAugUWuf7HYguJtAB8_teodZdH1-mzUAkMrKLNmQ32CPA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 3000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
