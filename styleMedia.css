@@ -38,6 +38,10 @@ nav .fas{
         margin: 25px;
     }
 
+    .scrollB{
+        width: 100%;
+    }
+    
     nav ul .fas{
         position: absolute;
         top: 25px;
